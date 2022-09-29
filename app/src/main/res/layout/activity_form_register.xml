@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black"
+        tools:context=".view.formregister.FormRegister">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_register_title"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+        />
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:background="@color/white"
+            android:textColorHint="@color/gray"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+        />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:background="@color/white"
+            android:textColorHint="@color/gray"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+        />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_register_text"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+        />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

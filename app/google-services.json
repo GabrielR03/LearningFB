@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "703085007744",
+    "project_id": "learningfb-23db9",
+    "storage_bucket": "learningfb-23db9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703085007744:android:07161809bac52c652d2765",
+        "android_client_info": {
+          "package_name": "com.gabriel.testapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703085007744-turop604k5imfj0eiptevakij8shn8da.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwOXnqnOc1qRmcyntjAJrDInPNE07vheY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703085007744-turop604k5imfj0eiptevakij8shn8da.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

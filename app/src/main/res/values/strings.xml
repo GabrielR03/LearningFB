@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Test Application</string>
+    <string name="form_register_title">Sign Up</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="button_register_text">Register</string>
+    <string name="form_login_title">Sign In</string>
+    <string name="button_login_text">Login</string>
+    <string name="redirect_to_register_text"><u>Don\'t have a account? Sign up here!</u></string>
+    <string name="button_logout_text">Sign Out</string>
+    <string name="button_write_data_text">Write data on Firebase</string>
+    <string name="button_read_data_text">Read data from Firebase</string>
+    <string name="button_update_data_text">Update data from Firebase</string>
+    <string name="button_delete_data_text">Delete data from Firebase</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_powwow">User</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_powwowItem">Item</string>
+    <string name="hint_identification">ID</string>
+</resources>
